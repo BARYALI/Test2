@@ -12,9 +12,9 @@ namespace Test1.Models
         public int Id { get; set; }
         public int RegNo { get; set; }
         public string Color { get; set; }
-       public string Type { get; set; }
+        public string Type { get; set; }
         public string Brand { get; set; }
-       public DateTime ParkingTime { get; set; }
+        public DateTime ParkingTime { get; set; }
 
         public VehicleIndex(VehicleIndex e)
         {

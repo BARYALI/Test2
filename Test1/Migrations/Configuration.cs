@@ -24,8 +24,8 @@ namespace Test1.Migrations
                 TypeOfVehicle = "car",
                 RegNo = "123",
                
-                Color = "worker",
-                Brand = "kabul",
+                Color = "white",
+                Brand = "cc",
                 Model = "zbe",
                 NoOfWheels = 4,
                 Description = "black",
