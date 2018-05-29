@@ -20,14 +20,16 @@ namespace Test1.Migrations
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
             ParkedVehicle chacha = new ParkedVehicle()
-            { 
+            {
+                TypeOfVehicle = "car",
                 RegNo = "123",
+               
                 Color = "worker",
                 Brand = "kabul",
                 Model = "zbe",
                 NoOfWheels = 4,
                 Description = "black",
-               // DateTime = DateTime.Now
+                ParkingTime = DateTime.Now
                
             };
 

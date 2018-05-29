@@ -30,7 +30,7 @@
 <table class="table">
 
     @*// <table class="table">*@
-    <tr>
+    @*<tr>
         <th>
             @Html.ActionLink("Last Name", "Index", new { sortOrder = ViewBag.NameSortParm })
         </th>
@@ -42,15 +42,16 @@
         </th>
         <th></th>
     </tr>
-    <tr>
-        @*<th>
-                 @Html.DisplayNameFor(model => model.Type)
+    <tr>*@
+        <th>
+            @Html.DisplayNameFor(model => model.TypeOfVehicle)
 
-            </th>*@
+        </th>
         <th>
             @*@Html.DropDownList("Type", l1, "select any type")*@
             @Html.DisplayNameFor(model => model.RegNo)
         </th>
+        
         <th>
             @Html.DisplayNameFor(model => model.Color)
         </th>
@@ -58,24 +59,24 @@
             @Html.DisplayNameFor(model => model.Brand)
         </th>
         @*<th>
-                @Html.DisplayNameFor(model => model.Model)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NoOfWheels)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>*@
+            @Html.DisplayNameFor(model => model.Model)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NoOfWheels)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>*@
         <th></th>
     </tr>
 
     @foreach (var item in Model)
     {
         <tr>
-            @*<td>
-                    @Html.DisplayFor(modelItem => item.Type)
+            <td>
+                    @Html.DisplayFor(modelItem => item.TypeOfVehicle)
 
-                </td>*@
+                </td>
             <td>
 
                 @Html.DisplayFor(modelItem => item.RegNo)

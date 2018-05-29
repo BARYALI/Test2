@@ -149,41 +149,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201805211125340_jj.cs" />
-    <Compile Include="Migrations\201805211125340_jj.Designer.cs">
-      <DependentUpon>201805211125340_jj.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805230828363_tt.cs" />
-    <Compile Include="Migrations\201805230828363_tt.Designer.cs">
-      <DependentUpon>201805230828363_tt.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805240758251_new.cs" />
-    <Compile Include="Migrations\201805240758251_new.Designer.cs">
-      <DependentUpon>201805240758251_new.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805240837218_rrr.cs" />
-    <Compile Include="Migrations\201805240837218_rrr.Designer.cs">
-      <DependentUpon>201805240837218_rrr.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805241045373_Regn.cs" />
-    <Compile Include="Migrations\201805241045373_Regn.Designer.cs">
-      <DependentUpon>201805241045373_Regn.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805241158119_yyy.cs" />
-    <Compile Include="Migrations\201805241158119_yyy.Designer.cs">
-      <DependentUpon>201805241158119_yyy.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805250820566_date time.cs" />
-    <Compile Include="Migrations\201805250820566_date time.Designer.cs">
-      <DependentUpon>201805250820566_date time.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805250834563_time.cs" />
-    <Compile Include="Migrations\201805250834563_time.Designer.cs">
-      <DependentUpon>201805250834563_time.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805281117421_hi.cs" />
-    <Compile Include="Migrations\201805281117421_hi.Designer.cs">
-      <DependentUpon>201805281117421_hi.cs</DependentUpon>
+    <Compile Include="Migrations\201805290808319_1008.cs" />
+    <Compile Include="Migrations\201805290808319_1008.Designer.cs">
+      <DependentUpon>201805290808319_1008.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ParkedVehicle.cs" />
@@ -237,6 +205,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -252,32 +221,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201805211125340_jj.resx">
-      <DependentUpon>201805211125340_jj.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805230828363_tt.resx">
-      <DependentUpon>201805230828363_tt.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805240758251_new.resx">
-      <DependentUpon>201805240758251_new.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805240837218_rrr.resx">
-      <DependentUpon>201805240837218_rrr.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805241045373_Regn.resx">
-      <DependentUpon>201805241045373_Regn.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805241158119_yyy.resx">
-      <DependentUpon>201805241158119_yyy.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805250820566_date time.resx">
-      <DependentUpon>201805250820566_date time.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805250834563_time.resx">
-      <DependentUpon>201805250834563_time.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805281117421_hi.resx">
-      <DependentUpon>201805281117421_hi.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805290808319_1008.resx">
+      <DependentUpon>201805290808319_1008.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
@@ -294,7 +239,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>52176</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

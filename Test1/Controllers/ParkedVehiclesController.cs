@@ -46,10 +46,7 @@ namespace Test1.Controllers
         //return View(vi);
         
 
-        //public ParkedVehicle()
-        //{
-        //    DateTime = DateTime.Now;
-        //}
+        
 
         public ActionResult Overview()
         {

@@ -3,7 +3,7 @@ namespace Test1.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class jj : DbMigration
+    public partial class _1008 : DbMigration
     {
         public override void Up()
         {
@@ -12,13 +12,14 @@ namespace Test1.Migrations
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
-                        Type = c.String(),
-                        RegNo = c.Int(nullable: false),
+                        TypeOfVehicle = c.String(),
+                        RegNo = c.String(),
                         Color = c.String(),
                         Brand = c.String(),
                         Model = c.String(),
                         NoOfWheels = c.Int(nullable: false),
                         Description = c.String(),
+                        ParkingTime = c.DateTime(nullable: false),
                     })
                 .PrimaryKey(t => t.Id);
             
