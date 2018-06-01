@@ -13,8 +13,6 @@ namespace Test1.Models
         public int Id { get; set; }
         public string Type { get; set; }
         public string RegNo { get; set; }
-        //[Required(AllowEmptyStrings = false, ErrorMessage = "You hav to write the exacte name of colors not numbers")]
-       // [StringLength(15, MinimumLength = 2, ErrorMessage = "Name muste be between 2 alnd longer")]
         public string Color { get; set; }
         public string Brand { get; set; }
         public string Model { get; set; }
