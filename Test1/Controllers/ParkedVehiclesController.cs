@@ -33,21 +33,6 @@ namespace Test1.Controllers
 
         }
 
-
-
-
-        //}
-        //List<VehicleIndex> vi = new List<VehicleIndex>();
-
-        //foreach (ParkedVehicle e in db.ParkedVehicles.ToList())
-        //{
-        //    vi.Add(new VehicleIndex(e.RegNo, e.Id, e.Color, e.Brand));
-        //}
-        //return View(vi);
-        
-
-        
-
         public ActionResult Overview()
         {
             return View();

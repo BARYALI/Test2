@@ -8,6 +8,8 @@ namespace Test1.Models
 {
     public class Vehicles
     {
+
+
         public int Id { get; set; }
         public string Type { get; set; } 
         public int RegNo { get; set; }
