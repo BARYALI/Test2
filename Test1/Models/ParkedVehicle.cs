@@ -21,9 +21,17 @@ namespace Test1.Models
         public string Description { get; set; }
         public DateTime ParkingTime { get; set; }
 
+        
        
-    }
+        //Navigation Property
 
+       public virtual Member Member { get; set; }
+
+    }
+     public enum VehicleType
+    {
+        Car,Bus,Truck
+    }
 }
 
 
