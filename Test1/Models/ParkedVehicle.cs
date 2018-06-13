@@ -28,10 +28,10 @@ namespace Test1.Models
        public virtual Member Members { get; set; }
 
     }
-     public enum VehicleType
-    {
-        Car,Bus,Truck
-    }
+    // public enum VehicleType
+    //{
+    //    Car,Bus,Truck
+    //}
 }
 
 

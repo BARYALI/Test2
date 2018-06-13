@@ -154,11 +154,28 @@
     <Compile Include="Migrations\201806130739121_test.Designer.cs">
       <DependentUpon>201806130739121_test.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806130847260_Member.cs" />
+    <Compile Include="Migrations\201806130847260_Member.Designer.cs">
+      <DependentUpon>201806130847260_Member.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806130936230_Member.ParkedVehicle.cs" />
+    <Compile Include="Migrations\201806130936230_Member.ParkedVehicle.Designer.cs">
+      <DependentUpon>201806130936230_Member.ParkedVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806130937262_ParkedVehicle.Member.cs" />
+    <Compile Include="Migrations\201806130937262_ParkedVehicle.Member.Designer.cs">
+      <DependentUpon>201806130937262_ParkedVehicle.Member.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806131145092_Id.cs" />
+    <Compile Include="Migrations\201806131145092_Id.Designer.cs">
+      <DependentUpon>201806131145092_Id.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Member.cs" />
     <Compile Include="Models\ParkedVehicle.cs" />
     <Compile Include="Models\VehicleIndex.cs" />
     <Compile Include="Models\Vehicles.cs" />
+    <Compile Include="Models\VehicleType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -209,7 +226,6 @@
     <Content Include="Views\Members\Details.cshtml" />
     <Content Include="Views\Members\Edit.cshtml" />
     <Content Include="Views\Members\Index.cshtml" />
-    <Content Include="Views\Members\stockholm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -231,6 +247,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201806130739121_test.resx">
       <DependentUpon>201806130739121_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806130847260_Member.resx">
+      <DependentUpon>201806130847260_Member.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806130936230_Member.ParkedVehicle.resx">
+      <DependentUpon>201806130936230_Member.ParkedVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806130937262_ParkedVehicle.Member.resx">
+      <DependentUpon>201806130937262_ParkedVehicle.Member.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806131145092_Id.resx">
+      <DependentUpon>201806131145092_Id.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
