@@ -14,7 +14,9 @@ namespace Test1.DataAccessLayer
 
             }
             public DbSet<Models.ParkedVehicle> ParkedVehicles { get; set; }
-        }
+
+        public System.Data.Entity.DbSet<Test1.Models.Member> Members { get; set; }
+    }
 
     
 }

@@ -144,18 +144,15 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MembersController.cs" />
     <Compile Include="Controllers\ParkedVehiclesController.cs" />
     <Compile Include="DataAccessLayer\StorageContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201805290808319_1008.cs" />
-    <Compile Include="Migrations\201805290808319_1008.Designer.cs">
-      <DependentUpon>201805290808319_1008.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805291222045_checkout.cs" />
-    <Compile Include="Migrations\201805291222045_checkout.Designer.cs">
-      <DependentUpon>201805291222045_checkout.cs</DependentUpon>
+    <Compile Include="Migrations\201806130739121_test.cs" />
+    <Compile Include="Migrations\201806130739121_test.Designer.cs">
+      <DependentUpon>201806130739121_test.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Member.cs" />
@@ -207,6 +204,12 @@
     <Content Include="Views\ParkedVehicles\Edit.cshtml" />
     <Content Include="Views\ParkedVehicles\Index.cshtml" />
     <Content Include="Views\Home\Edit.cshtml" />
+    <Content Include="Views\Members\Create.cshtml" />
+    <Content Include="Views\Members\Delete.cshtml" />
+    <Content Include="Views\Members\Details.cshtml" />
+    <Content Include="Views\Members\Edit.cshtml" />
+    <Content Include="Views\Members\Index.cshtml" />
+    <Content Include="Views\Members\stockholm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -226,11 +229,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201805290808319_1008.resx">
-      <DependentUpon>201805290808319_1008.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805291222045_checkout.resx">
-      <DependentUpon>201805291222045_checkout.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201806130739121_test.resx">
+      <DependentUpon>201806130739121_test.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

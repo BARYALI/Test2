@@ -25,7 +25,7 @@ namespace Test1.Models
        
         //Navigation Property
 
-       public virtual Member Member { get; set; }
+       public virtual Member Members { get; set; }
 
     }
      public enum VehicleType

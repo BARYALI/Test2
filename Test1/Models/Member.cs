@@ -7,7 +7,7 @@ namespace Test1.Models
 {
     public class Member
     {
-        public int Id { get; set; }
+        public int memberId { get; set; }
 
         public string FirstName {get;set;}
          
