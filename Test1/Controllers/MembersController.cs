@@ -16,8 +16,17 @@ namespace Test1.Controllers
         private StorageContext db = new StorageContext();
 
         // GET: Members
-        public ActionResult Index()
+        public ActionResult Index(string id)
         {
+            string searchString = id;
+            var pVehicles = from m in db.ParkedVehicles
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                pVehicles = pVehicles.Where(s => s.TypeOfVehicle.Contains(searchString));
+            }
+
             return View(db.Members.ToList());
         }
 
